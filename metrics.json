@@ -1,0 +1,201 @@
+{
+  "purchase_type_space_rows": 254,
+  "manager_spellings_before": 14,
+  "manager_spellings_after": 5,
+  "start": "2022-11-07",
+  "end": "2022-12-29",
+  "trading_days": 53,
+  "missing_order_ids": 8,
+  "revenue_raw": 769515.8592000001,
+  "price_anomaly_rows": 2,
+  "price_anomaly_impact": 17713.73470000003,
+  "price_anomaly_impact_pct": 2.3019323758207517,
+  "total_revenue": 751802.1245,
+  "orders": 254,
+  "aov": 2959.850883858268,
+  "first_week_rev": 87200.2332,
+  "last_week_rev": 113799.887,
+  "growth_pct": 30.504108560113348,
+  "avg_wow_pct": 4.654018516652575,
+  "daily_last_full": 16257.126714285714,
+  "daily_partial": 17100.0237,
+  "partial_days": 4,
+  "full_weeks": 7,
+  "top_product": "Burgers",
+  "top_product_share": 50.146148117196496,
+  "top_product_aov": 7249.996286538462,
+  "other_products_aov": 1855.4570178217818,
+  "product_table": [
+    {
+      "Product": "Burgers",
+      "Revenue": 376999.8,
+      "Orders": 52,
+      "Share": 50.1,
+      "AOV": 7250.0
+    },
+    {
+      "Product": "Fries",
+      "Revenue": 111799.8,
+      "Orders": 51,
+      "Share": 14.9,
+      "AOV": 2192.2
+    },
+    {
+      "Product": "Chicken Sandwiches",
+      "Revenue": 110802.4,
+      "Orders": 52,
+      "Share": 14.7,
+      "AOV": 2130.8
+    },
+    {
+      "Product": "Beverages",
+      "Revenue": 103200.3,
+      "Orders": 50,
+      "Share": 13.7,
+      "AOV": 2064.0
+    },
+    {
+      "Product": "Sides & Other",
+      "Revenue": 48999.8,
+      "Orders": 49,
+      "Share": 6.5,
+      "AOV": 1000.0
+    }
+  ],
+  "weeks_up": 5,
+  "weakest_day": "Sunday",
+  "weakest_day_gap_pct": -7.749067774434404,
+  "avg_daily_revenue": 14184.945745283017,
+  "city_table": [
+    {
+      "City": "Lisbon",
+      "Revenue": 224000.4,
+      "Orders": 75,
+      "Share": 29.8,
+      "AOV": 2986.7
+    },
+    {
+      "City": "London",
+      "Revenue": 211201.0,
+      "Orders": 75,
+      "Share": 28.1,
+      "AOV": 2816.0
+    },
+    {
+      "City": "Madrid",
+      "Revenue": 136200.3,
+      "Orders": 46,
+      "Share": 18.1,
+      "AOV": 2960.9
+    },
+    {
+      "City": "Berlin",
+      "Revenue": 100600.1,
+      "Orders": 30,
+      "Share": 13.4,
+      "AOV": 3353.3
+    },
+    {
+      "City": "Paris",
+      "Revenue": 79800.3,
+      "Orders": 28,
+      "Share": 10.6,
+      "AOV": 2850.0
+    }
+  ],
+  "top2_cities": [
+    "Lisbon",
+    "London"
+  ],
+  "top2_city_share": 57.88776160873965,
+  "best_aov_city": "Berlin",
+  "best_aov_city_value": 3353.3377100000002,
+  "burgers_top_every_city": true,
+  "channel_table": [
+    {
+      "Purchase Type": "Online",
+      "Revenue": 305201.4,
+      "Orders": 107,
+      "Share": 40.6,
+      "AOV": 2852.3
+    },
+    {
+      "Purchase Type": "In-store",
+      "Revenue": 268000.3,
+      "Orders": 86,
+      "Share": 35.6,
+      "AOV": 3116.3
+    },
+    {
+      "Purchase Type": "Drive-thru",
+      "Revenue": 178600.5,
+      "Orders": 61,
+      "Share": 23.8,
+      "AOV": 2927.9
+    }
+  ],
+  "online_share": 40.59597291015636,
+  "london_online_share": 86.45835592535428,
+  "london_instore_rev": 0.0,
+  "berlin_online_rev": 0.0,
+  "madrid_online_share": 1.6152626250551427,
+  "payment_table": [
+    {
+      "Payment Method": "Credit Card",
+      "Revenue": 344001.3,
+      "Orders": 120,
+      "Share": 45.8,
+      "AOV": 2866.7
+    },
+    {
+      "Payment Method": "Cash",
+      "Revenue": 239200.2,
+      "Orders": 76,
+      "Share": 31.8,
+      "AOV": 3147.4
+    },
+    {
+      "Payment Method": "Gift Card",
+      "Revenue": 168600.6,
+      "Orders": 58,
+      "Share": 22.4,
+      "AOV": 2906.9
+    }
+  ],
+  "gift_card_share": 22.426193236967904,
+  "credit_share": 45.756892750041715,
+  "manager_city_one_to_one": true,
+  "recommendations": [
+    {
+      "Category": "Risk",
+      "Finding (evidence)": "Burgers generate 50% of revenue and are the top product in every city. One supply, price or quality problem would hit half the business.",
+      "Recommended action": "Secure burgers supply and pricing; track burgers share monthly with an alert if it moves sharply."
+    },
+    {
+      "Category": "Risk",
+      "Finding (evidence)": "Lisbon and London produce 58% of revenue, and London earns 86% of its revenue online with no in-store sales.",
+      "Recommended action": "Set up a contingency plan for the two anchor cities, including online platform uptime and delivery capacity in London."
+    },
+    {
+      "Category": "Opportunity",
+      "Finding (evidence)": "Online is the largest channel (41% of revenue), yet Berlin has no online revenue and Madrid only 1.6%. Berlin has the highest order value (3,353).",
+      "Recommended action": "Pilot online ordering in Berlin and Madrid; measure new online revenue after 4 weeks against the in-store baseline."
+    },
+    {
+      "Category": "Opportunity",
+      "Finding (evidence)": "Sides & Other is only 7% of revenue at 1,000 per order, the lowest of all products.",
+      "Recommended action": "Bundle Sides & Other and Fries with Burgers in combo offers to raise order value."
+    },
+    {
+      "Category": "Opportunity",
+      "Finding (evidence)": "Weekly revenue grew +30.5% and the final partial week has the highest daily run-rate (17,100/day). Sunday is the weakest weekday (8% below average).",
+      "Recommended action": "Run a targeted Sunday promotion; re-check growth once January and later data is available to separate trend from holiday season."
+    },
+    {
+      "Category": "Action (data)",
+      "Finding (evidence)": "2 rows had invalid prices (about 2.3% of raw revenue) and 8 Order IDs are missing.",
+      "Recommended action": "Add price validation at order entry and audit the missing Order IDs (possible cancelled or unrecorded orders)."
+    }
+  ],
+  "ai_prompt": "You are an executive business analyst advising the CEO of a restaurant chain.\nUse ONLY the verified metrics below. Do not invent numbers.\n\n\nVERIFIED METRICS (restaurant chain, 7 Nov - 29 Dec 2022, 5 cities, 5 products, 3 channels)\n- Total revenue: 751,802 from 254 sales records; average order value 2,960\n- Weekly revenue grew +30.5% from first to last full week (87,200 to 113,800); revenue rose in 5 of 6 weekly comparisons\n- Products by revenue share: Burgers 50%, Fries 15%, Chicken Sandwiches 15%, Beverages 14%, Sides & Other 7%\n- Average order value by product: Burgers 7,250, Fries 2,192, Chicken Sandwiches 2,131, Beverages 2,064, Sides & Other 1,000\n- Cities by revenue share: Lisbon 30%, London 28%, Madrid 18%, Berlin 13%, Paris 11%\n- Average order value by city: Lisbon 2,987, London 2,816, Madrid 2,961, Berlin 3,353, Paris 2,850\n- Channel share of revenue: Online 41%, In-store 36%, Drive-thru 24%\n- London earns 86% of its revenue online; Berlin online revenue = 0; Madrid online share = 1.6%\n- Payment share: Credit Card 46%, Cash 32%, Gift Card 22%\n- Weakest weekday: Sunday (8% below the average day)\n- Limitations: no profit or cost data, no customer IDs, only 53 days of data\n\nProduce:\n1. 5 Key Findings - the most important patterns in the data\n2. 3 Risks - what could hurt the business\n3. 3 Opportunities - where the business could grow\n4. 5 Recommended Actions - what management should consider doing\nKeep each item to one or two sentences and cite the metric it relies on."
+}
